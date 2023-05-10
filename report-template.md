@@ -17,6 +17,8 @@ Utilizing the SKLearn library, I was able to split the data into x and y, traini
 ## Results
 
 * Machine Learning Model 1 - Logistic Regression Model with the Original Data using the training data (X_train and y_train):
+![Model1](https://github.com/mhanson16/credit-risk-classification/assets/119544491/7b4e1bdb-45e4-4e95-93b1-604f15cf3bc8)
+
   * Accuracy: 95.2%
   * Precision: Nearly 100% for Healthy loans and 86% for Non-healthy loans
   * Recall Scores: Nearly 100% for Healthy loans and 90% for Non-healthy loans, telling us that <1% of Healthy loans were incorrectly labeled  while about 10% of high-risk loans were incorrectly labeled. 
@@ -25,6 +27,8 @@ Utilizing the SKLearn library, I was able to split the data into x and y, traini
 
 
 * Machine Learning Model 2 - Predicting Logistic Regression Model with Resampled Training Data using the training data (X_train and y_train):
+![Model2](https://github.com/mhanson16/credit-risk-classification/assets/119544491/b992143d-7556-4716-b7db-5bed1e292d61)
+
   * Accuracy: 99.37%
   * Precision: Nearly 100% for Healthy loans and 84% for Non-healthy loans
   * Recall Scores: 99% for Healthy loans and Non-healthy loans, telling us that 1% of loans were incorrectly labeled.
