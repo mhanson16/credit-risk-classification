@@ -27,6 +27,7 @@ Utilizing the SKLearn library, I was able to split the data into x and y, traini
 
 
 * Machine Learning Model 2 - Predicting Logistic Regression Model with Resampled Training Data using the training data (X_train and y_train):
+
 ![Model2](https://github.com/mhanson16/credit-risk-classification/assets/119544491/b992143d-7556-4716-b7db-5bed1e292d61)
 
   * Accuracy: 99.37%
