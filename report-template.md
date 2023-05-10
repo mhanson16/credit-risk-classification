@@ -8,7 +8,11 @@ In this project I focused on creating a Logistics Regression Model to determine 
 
 The financial information provided by a lending company included data regarding loan size, interest rates, borrower debt and income, number of open accounts, derogatory marks, and finally a loan status stating if the borrower was considered healthy or high-risk. 
 
-The function value_counts() confirmed the data was heavily imbalanced with 75,036 labeled healthy and 2,500 labeled high-risk. Utilizing the SKLearn library, I was able to split the data into x and y, training and testing values. The data was then ready to be applied and fitted to the Logistic Regression model. Predictions were formed to compare to the actual data points to create an accuracy score, confusion matrix and a final classification report. 
+The function value_counts() confirmed the data was heavily imbalanced with 75,036 labeled healthy and 2,500 labeled high-risk. 
+
+![balanace](https://github.com/mhanson16/credit-risk-classification/assets/119544491/e98f352e-a681-4c5d-ae6d-48bce48ad038)
+
+Utilizing the SKLearn library, I was able to split the data into x and y, training and testing values. The data was then ready to be applied and fitted to the Logistic Regression model. Predictions were formed to compare to the actual data points to create an accuracy score, confusion matrix and a final classification report. 
 
 ## Results
 
